@@ -64,30 +64,62 @@ h1, h2, h3, h4, h5 {
 }
 
 @media(min-width:468px){
+a{
+	text-decoration: none;
+	color: grey;
+	display: flex;
+	padding-right: 65px;
+}
+h1{
+	font-size: 30px;
+}
+button{
+padding:10px;
+}
+
+.bigcontainer{
+	max-width: 880px;
+	margin: 0 auto
+}
 
 	.box{
+ 	width:45%;
+	background-color: lightgrey;
+	border: black solid;
+	margin-bottom: 20px;
 
 	}
-	.box2{
-
+	.boxcontainer{
+		padding-top: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: space-around;
 	}
-	.box3{
-
-	}
-	.box4{
-
-	}
-	.box5{
-
-	}
-	.box6{
-
+	.copyright{
+		text-align: center;
+		padding-top: 20px;
 	}
 	.facts{
+	max-width: 880px;
+	margin: 0 auto;
+	display: flex;
 
 	}
+	.tophalf{
+		padding-bottom: 20px;
+	}
+	.navigation{
+		display: flex;
+		align-items: flex-end;
+	}
 	.navigation_container{
-	display:  inline-flex;
+	display:inline-flex;
+	justify-content: space-between;
+	}
+	.services-header-img{
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 }
 
