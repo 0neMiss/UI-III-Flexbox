@@ -74,7 +74,24 @@ h1{
 	font-size: 30px;
 }
 button{
-padding:10px;
+padding-left:15px;
+padding-right:15px;
+padding-top: 5px;
+padding-bottom:  5px;
+margin: 10px;
+border: black solid;
+background-color: white;
+border-radius: 5px;
+
+}
+li{
+padding-top: 5px;
+
+padding-bottom: 5px;
+}
+.left_bottom ul {
+ list-style: square;
+ padding: 20px;
 }
 
 .bigcontainer{
@@ -84,10 +101,13 @@ padding:10px;
 
 	.box{
  	width:45%;
-	background-color: lightgrey;
+	background-color: #E6E6E6;
 	border: black solid;
 	margin-bottom: 20px;
 
+	}
+	.boxcontents{
+		padding: 8px;
 	}
 	.boxcontainer{
 		padding-top: 20px;
@@ -121,6 +141,7 @@ padding:10px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
+
 }
 
 
